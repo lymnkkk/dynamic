@@ -1,7 +1,6 @@
 <?php
 	require 'config.php';  //连接数据库
 
-
 	$_birthday=$_POST['year'].'-'.$_POST['month'].'-'.$_POST['day'];
 	
 	$query="INSERT INTO blog_user(user,pass,ques,ans,email,birthday,ps) 

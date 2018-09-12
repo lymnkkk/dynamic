@@ -112,6 +112,7 @@ Base.prototype.getClass=function(className,parentNode){
 		//if(all[i].className==className){
 		if((new RegExp('(\\s|^)'+className+'(\\s|$)')).test(all[i].className)){
 			temps.push(all[i]);
+			alert(all[i].className)
 		}
 	}
 	return temps;

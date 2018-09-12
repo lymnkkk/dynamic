@@ -1,7 +1,7 @@
 <?php
 	require "config.php";
 
-	$query=mysql_query("SELECT title,content,date FROM blog_blog ORDER BY date DESC LIMIT 0,3") or die('SQL错误！'.mysql_error());
+	$query=mysql_query("SELECT title,content FROM blog_blog ORDER BY id DESC LIMIT 0,3") or die('SQL错误！'.mysql_error());
 
     $json='';
 	while(!!$row=mysql_fetch_array($query,MYSQL_ASSOC)){
@@ -12,4 +12,6 @@
 	// sleep(3);
 	echo '['.substr($json,0,strlen($json)-1).']';
 	mysql_close();
+
+	
 ?>

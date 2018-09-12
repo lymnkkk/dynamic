@@ -1,4 +1,4 @@
-       /*
+         /*
 window.onload=function(){
   //个人中心
   $().getClass('member').hover(function(){
@@ -1103,8 +1103,7 @@ $(function(){
 		})
 		
 		current_img.src=$('#photo_big .big .left').attr('src');
-			
-			
+					
 		// alert($('#photo_big .big .big_img').attr('index'));
 		var children=$('#photo dl dt img').ge(prevIndex($('#photo_big .big .big_img').attr('index'),$('#photo').first())).parentNode.parentNode;
 		prev_next_img(children);
