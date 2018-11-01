@@ -16,5 +16,5 @@ blog/add_blog.php   |  新增博客
 blog/config.php     |  连接数据库
 blog/get_blog.php   |  获取博客
 blog/get_skin.php   |  获取皮肤
-blog/is_login.php   |  判断是否成功
+blog/is_login.php   |  判断是否登录成功
 blog/is_user.php    |  判断用户是否存在
